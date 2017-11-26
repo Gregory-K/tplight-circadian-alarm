@@ -1,7 +1,7 @@
 #!/bin/bash
 # A simple bash script alarm to mimic a "natural" sunrise light wake-up.
 #
-# This code is under MIT licence, you can find the complete file here:
+# This code is under MIT license, you can find the complete file here:
 # https://github.com/Gregory-K/tplight-circadian-alarm
 #
 
@@ -48,10 +48,10 @@ tplight temp -t 30000 $bulb 3000
 tplight on -t 600000 $bulb -b 50
 sleep 600
 # 00:30
-tplight temp -t 30000 $bulb 4000
+tplight temp -t 300000 $bulb 3700
 tplight on -t 600000 $bulb -b 70
 sleep 600
 # 00:40
-tplight temp -t 30000 $bulb 5000
+tplight temp -t 30000 $bulb 4000
 tplight on -t 600000 $bulb -b 100
 # 00:50

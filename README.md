@@ -6,13 +6,13 @@ The script works with the [tp-link LB120](http://www.tp-link.com/us/products/det
 It may work with the LB110/LB130 or with the entire range of tp-link wifi bulbs.
 tp-link Circadian Alarm uses the [tplink-lightbulb](https://github.com/konsumer/tplink-lightbulb) nodejs controller and it is based on this [simple Bash alarm clock script](https://github.com/mkscrg/alarm-clock).
 
-github repository <https://github.com/Gregory-K/tplight-circadian-alarm>
+GitHub repository <https://github.com/Gregory-K/tplight-circadian-alarm>.
 
 ## How it works
 
 User inputs the desired wake-up time.
 The script calculates the remaining time and one hour before wake-up time it starts sending commands to the wifi bulb.
-The bulb will start with 2700K color temperature and 5% brightness and will gradually ascend to 5000K/100% 10 minutes before wake-up time.
+The bulb will start with 2700K color temperature and 5% brightness and will gradually ascend to 4000K/100% 10 minutes before wake-up time.
 
 It is supposed to assist you in waking-up in a more "natural" way using external cues to adjust your circadian rhythms.
 Of course, this particular method is not scientifically proved in any way.
